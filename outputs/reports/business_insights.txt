@@ -1,0 +1,40 @@
+CODEALPHA TASK 1 - E-COMMERCE PRODUCT INTELLIGENCE
+=================================================================
+
+DATASET OVERVIEW
+-----------------------------------------------------------------
+Total products analyzed: 1000
+Average price: £35.07
+Median price: £35.98
+Minimum price: £10.00
+Maximum price: £59.99
+Average rating: 2.92
+Most common rating: 1 (226 books)
+High-rated products: 37.50%
+Most common availability status: In stock (100.00%)
+Price-rating correlation: 0.028
+
+KEY BUSINESS INSIGHTS
+-----------------------------------------------------------------
+1. Pricing:
+The average product price is £35.07, while the median price is £35.98. This provides a benchmark for the overall catalogue pricing level.
+
+2. Customer Rating:
+The most common customer rating is 1 stars. 37.50% of products are classified as high-rated products (4 or 5 stars).
+
+3. Price and Rating:
+The price-rating correlation is 0.028. The observed relationship is classified as weak positive relationship. Correlation should not be interpreted as proof of causation.
+
+4. Availability:
+The most common availability status is 'In stock', representing 100.00% of the catalogue.
+
+5. Pricing Segmentation:
+The catalogue was divided into Low, Medium and High Price groups using quantile-based segmentation. This allows comparison of products across different pricing levels.
+
+BUSINESS RECOMMENDATIONS
+-----------------------------------------------------------------
+1. Use the median and average price as benchmarks when evaluating competitive pricing strategies.
+2. Monitor highly rated products closely because they may represent strong customer acceptance and potential promotional opportunities.
+3. Compare price and rating together rather than using price alone when evaluating product positioning.
+4. Track availability continuously because product availability can affect customer experience and potential revenue.
+5. Repeat the scraping and analysis periodically to monitor pricing and catalogue changes over time.
