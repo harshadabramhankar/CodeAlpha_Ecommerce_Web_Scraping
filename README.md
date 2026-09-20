@@ -1,67 +1,25 @@
-# CodeAlpha E-Commerce Product Intelligence
+# Data Analytics Internship - Three-Stage Analytics Pipeline
 
-## 📌 Project Overview
+## Project Overview
+This repository contains an end-to-end data analytics pipeline demonstrating automated data extraction, statistical exploratory data analysis (EDA), and executive visual reporting.
 
-An end-to-end Data Analytics project developed for the CodeAlpha Data Analytics Internship.
+---
 
-The project uses Python web scraping, data cleaning, exploratory data analysis, visualization, and business insights.
+### Task 1: Web Scraping Pipeline (`task1_web_scraping.py`)
+* **Objective:** Extract structured multi-page catalog records from public e-commerce listings.
+* **Tech Stack:** Python 3.11, BeautifulSoup4, Requests, Pandas.
+* **Deliverable:** `books_dataset.csv` (contains book titles, numeric ratings, prices, and stock statuses).
 
-## 🚀 Features
+---
 
-- Automated web scraping
-- Multi-page pagination
-- 1000 product records
-- Data cleaning and validation
-- Exploratory Data Analysis
-- Statistical analysis
-- 12 visualizations
-- Business insights
-- Business recommendations
-- Power BI dashboard
+### Task 2: Exploratory Data Analysis (`task2_eda.py`)
+* **Objective:** Data profiling, distribution analysis, outlier detection, and hypothesis validation.
+* **Hypothesis Tested:** "Higher customer ratings correspond to higher average prices."
+  * **Result:** Disproved. Average pricing remains steady across star tiers (~£35.00), demonstrating catalog-independent pricing.
+* **Deliverable:** `eda_analysis_charts.png` (4-panel statistical chart suite).
 
-## 🛠️ Technologies
+---
 
-- Python
-- Requests
-- BeautifulSoup
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Power BI
-- Git
-- GitHub
-
-## 🌐 Data Source
-
-Books to Scrape
-
-## 📊 Data Collected
-
-- Product Name
-- Price
-- Rating
-- Availability
-- Product URL
-- Scraped Date
-
-## 🔄 Project Workflow
-
-```text
-Web Scraping
-     ↓
-Pagination
-     ↓
-Raw Dataset
-     ↓
-Data Cleaning
-     ↓
-Validation
-     ↓
-EDA
-     ↓
-Visualization
-     ↓
-Business Insights
-     ↓
-Power BI Dashboard
+### Task 3: Data Visualization Dashboard (`task3_visualization.py`)
+* **Objective:** Present actionable merchandise intelligence for retail category managers.
+* **Deliverable:** `task3_business_dashboard.png` (executive dashboard covering price tier segmentation, rating distribution, and product spotlights).
